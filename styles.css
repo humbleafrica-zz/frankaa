@@ -1,0 +1,435 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.grid {
+    max-height: 500px;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 10px;
+}
+
+
+.squares {
+    margin: 2px;
+    border-radius: 3px;
+    min-height: 4em;
+    min-width: 4em;
+
+}
+
+.top {
+    border-radius: 3px;
+    /*max-height: 13em;
+    max-width: 13em;
+
+*/
+}
+
+.P1 {
+    background-color: red !important;
+    color: #999999;
+    font-weight: bold;
+}
+
+.P2 {
+    background-color: blue !important;
+    color: #999999;
+    font-weight: bold;
+}
+
+.scores {
+    font-size: 100px;
+}
+
+.centre {
+    border-radius: 3px;
+    /*max-height: 13em;
+    max-width: 13em;
+*/
+}
+
+.bottom {
+    border-radius: 3px;
+    /*max-height: 13em;
+    max-width: 13em;*/
+}
+
+#player1,
+#player2 {
+    padding: 2px;
+    text-align: center;
+    border: 2px solid gold;
+    border-radius: 3px;
+}
+
+
+#player1 {
+    margin-left: 20px;
+}
+
+#player2 {
+    margin-right: 20px;
+}
+
+#topleft,
+#topcentre,
+#topright,
+#middleleft,
+#middlecentre,
+#middleright,
+#bottomleft,
+#bottomcentre,
+#bottomright {
+    border-radius: 3px;
+    border: 1px solid black;
+
+}
+
+
+
+.amaranth {
+    background-color: #e52b50;
+}
+
+.amber {
+    background-color: #FFbF00;
+}
+
+.amethyst {
+    background-color: #9966cc;
+}
+
+.apricot {
+    background-color: #Fbceb1;
+}
+
+.aquamarine {
+    background-color: #7FFFd4;
+}
+
+.azure {
+    background-color: #007FFF;
+}
+
+.babyblue {
+    background-color: #89cFF0;
+}
+
+.beige {
+    background-color: #F5F5dc;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.blue {
+    background-color: #0000FF;
+}
+
+.blue-green {
+    background-color: #0095b6;
+}
+
+.blue-violet {
+    background-color: #8a2be2;
+}
+
+.blush {
+    background-color: #de5d83;
+}
+
+.bronze {
+    background-color: #cd7F32;
+}
+
+.brown {
+    background-color: #964b00;
+}
+
+.burgundy {
+    background-color: #800020;
+}
+
+.byzantium {
+    background-color: #702963;
+}
+
+.carmine {
+    background-color: #960018;
+}
+
+.cerise {
+    background-color: #de3163;
+}
+
+.cerulean {
+    background-color: #007ba7;
+}
+
+.champagne {
+    background-color: #F7e7ce;
+}
+
+.chartreusegreen {
+    background-color: #7FFF00;
+}
+
+.chocolate {
+    background-color: #7b3F00;
+}
+
+.cobaltblue {
+    background-color: #0047ab;
+}
+
+.coffee {
+    background-color: #6F4e37;
+}
+
+.copper {
+    background-color: #b87333;
+}
+
+.coral {
+    background-color: #F88379;
+}
+
+.crimson {
+    background-color: #dc143c;
+}
+
+.cyan {
+    background-color: #00FFFF;
+}
+
+.desert sand {
+    background-color: #edc9af;
+}
+
+.electricblue {
+    background-color: #7dF9FF;
+}
+
+.emerald {
+    background-color: #50c878;
+}
+
+.erin {
+    background-color: #00FF3F;
+}
+
+.gold {
+    background-color: #FFd700;
+}
+
+.gray {
+    background-color: #808080;
+}
+
+.green {
+    background-color: #00FF00;
+}
+
+.harlequin {
+    background-color: #3FFF00;
+}
+
+.indigo {
+    background-color: #4b0082;
+}
+
+.ivory {
+    background-color: #FFFFF0;
+}
+
+.jade {
+    background-color: #00a86b;
+}
+
+.jungle green {
+    background-color: #29ab87;
+}
+
+.lavender {
+    background-color: #b57edc;
+}
+
+.lemon {
+    background-color: #FFF700;
+}
+
+.lilac {
+    background-color: #c8a2c8;
+}
+
+.lime {
+    background-color: #bFFF00;
+}
+
+.magenta {
+    background-color: #FF00FF;
+}
+
+.magenta rose {
+    background-color: #FF00aF;
+}
+
+.maroon {
+    background-color: #800000;
+}
+
+.mauve {
+    background-color: #e0b0FF;
+}
+
+.navyblue {
+    background-color: #000080;
+}
+
+.ocher {
+    background-color: #cc7722;
+}
+
+.olive {
+    background-color: #808000;
+}
+
+.orange {
+    background-color: #FFa500;
+}
+
+.orange-red {
+    background-color: #FF4500;
+}
+
+.orchid {
+    background-color: #da70d6;
+}
+
+.peach {
+    background-color: #FFe5b4;
+}
+
+.pear {
+    background-color: #d1e231;
+}
+
+.periwinkle {
+    background-color: #ccccFF;
+}
+
+.persianblue {
+    background-color: #1c39bb;
+}
+
+.pink {
+    background-color: #FFc0cb;
+}
+
+.plum {
+    background-color: #8e4585;
+}
+
+.prussianblue {
+    background-color: #003153;
+}
+
+.puce {
+    background-color: #cc8899;
+}
+
+.purple {
+    background-color: #800080;
+}
+
+.raspberry {
+    background-color: #e30b5c;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.red-violet {
+    background-color: #c71585;
+}
+
+.rose {
+    background-color: #FF007F;
+}
+
+.ruby {
+    background-color: #e0115F;
+}
+
+.salmon {
+    background-color: #Fa8072;
+}
+
+.sangria {
+    background-color: #92000a;
+}
+
+.sapphire {
+    background-color: #0F52ba;
+}
+
+.scarlet {
+    background-color: #FF2400;
+}
+
+.silver {
+    background-color: #c0c0c0;
+}
+
+.slategray {
+    background-color: #708090;
+}
+
+.springbud {
+    background-color: #a7Fc00;
+}
+
+.springgreen {
+    background-color: #00FF7F;
+}
+
+.tan {
+    background-color: #d2b48c;
+}
+
+.taupe {
+    background-color: #483c32;
+}
+
+.teal {
+    background-color: #008080;
+}
+
+.turquoise {
+    background-color: #40e0d0;
+}
+
+.ultramarine {
+    background-color: #3F00FF;
+}
+
+.violet {
+    background-color: #ee82ee;
+}
+
+.viridian {
+    background-color: #40826d;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
